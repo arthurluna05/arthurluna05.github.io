@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="assets/unnamed.jpg">
+    <title>Arthur Luna - Desenvolvedor Backend</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <nav>
+        <div class="container">
+            <a href="#" class="nav-logo"><img src="assets/unnamed.jpg" alt="Logo Arthur Luna" class="logo-nav"></a>
+            <ul>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#tecnologias">Tecnologias</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Olá, eu sou Arthur Luna.</h1>
+            <h2 id="subtitle"></h2>
+            <div class="hero-links">
+                <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                <a href="https://github.com/arthurluna05" target="_blank" class="btn btn-secondary">Meu GitHub</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+
+        <section id="sobre">
+            <div class="sobre-texto">
+                <h2>Sobre Mim</h2>
+                <p>Tenho 20 anos e sou um desenvolvedor Backend apaixonado por criar soluções robustas e eficientes. Meu
+                    foco principal é a especialização em automação de processos, desenvolvimento de APIs e a aplicação
+                    de Inteligência Artificial e GenAI.</p>
+                <p>Estou constantemente estudando e aplicando meus conhecimentos em tecnologias como Java com Spring
+                    Framework e Python para scripts de automação e análise de dados, sempre com um olho em bancos de
+                    dados SQL para garantir a integridade e performance.</p>
+            </div>
+            <div class="sobre-foto">
+                <img src="assets/fotoperfil.jpeg" alt="Foto de Arthur Luna">
+            </div>
+        </section>
+
+        <section id="tecnologias">
+            <h2>Principais Tecnologias</h2>
+            <div class="tech-grid">
+                <div class="tech-card">
+                    <i class="ph-bold ph-file-py"></i>
+                    <h3>Python</h3>
+                    <p>Automação de tarefas, scripts, análise de dados e backends com FastAPI/Django.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="ph-bold ph-coffee"></i>
+                    <h3>Java & Spring</h3>
+                    <p>Criação de APIs REST robustas e microsserviços com Spring Boot e Spring Security.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="ph-bold ph-brain"></i>
+                    <h3>IA & GenAI</h3>
+                    <p>Integração com APIs (OpenAI) e desenvolvimento de soluções usando IA generativa.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="ph-bold ph-database"></i>
+                    <h3>SQL</h3>
+                    <p>Modelagem de dados e queries otimizadas em PostgreSQL, MySQL e SQL Server.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="ph-bold ph-robot"></i>
+                    <h3>Automação</h3>
+                    <p>Desenvolvimento de RPA e scripts para otimização de processos de negócios.</p>
+                </div>
+                <div class="tech-card">
+                    <i class="ph-bold ph-git-branch"></i>
+                    <h3>Git & GitHub</h3>
+                    <p>Controle de versão, CI/CD e gerenciamento de projetos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="projetos-grid">
+
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/numerosecreto.png" alt="Jogo do Número Secreto">
+                    </div>
+                    <h3>Jogo do Número Secreto</h3>
+                    <p>Desafio da Alura de lógica de programação. Um jogo de adivinhação onde o usuário deve acertar o
+                        número secreto, com feedback de tentativas.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/000000/html-5--v1.png" alt="HTML5 Icon"
+                            class="tech-icon">
+                        <img src="https://img.icons8.com/color/48/000000/css3.png" alt="CSS3 Icon" class="tech-icon">
+                        <img src="https://img.icons8.com/color/48/000000/javascript--v1.png" alt="JavaScript Icon"
+                            class="tech-icon">
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/Cursos/tree/main/Curso-Logica-de-Programacao-JS/numero-secreto"
+                            class="btn btn-secondary" target="_blank">Ver no GitHub</a>
+
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/projetocrud2.png" alt="Sistema Gerenciador de Clientes">
+                    </div>
+                    <h3>Gerenciador de Clientes (Fullstack)</h3>
+                    <p>Sistema (APS) com CRUD de clientes, validação (Zod) e integração automática com APIs de CNPJ e
+                        CEP para consulta de dados.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/000000/react-native.png" alt="React Icon"
+                            class="tech-icon" title="React">
+                        <img src="https://img.icons8.com/color/48/000000/nodejs.png" alt="Node.js Icon"
+                            class="tech-icon" title="Node.js">
+                        <img src="https://img.icons8.com/color/48/000000/typescript.png" alt="TypeScript Icon"
+                            class="tech-icon" title="TypeScript">
+                        <img src="https://img.icons8.com/color/48/000000/mysql-logo.png" alt="MySQL Icon"
+                            class="tech-icon" title="MySQL">
+                        <span title="Prisma ORM">Prisma</span>
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/projeto_aps" class="btn btn-secondary"
+                            target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/spacepong.png" alt="Jogo Space Pong">
+                    </div>
+                    <h3>Space Pong</h3>
+                    <p>Clássico jogo "Pong" recriado com uma temática espacial, feito na Godot Engine para demonstrar
+                        lógica, física simples e manipulação de eventos.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/c-sharp-logo.png" alt="C# Icon" class="tech-icon"
+                            title="C#">
+                        <img src="assets/image-removebg-preview.png" alt="Godot Engine Icon" class="tech-icon"
+                            title="Godot Engine">
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/space-pong" class="btn btn-secondary"
+                            target="_blank">Ver
+                            no GitHub</a>
+                        <a href="https://drive.google.com/drive/folders/10TMoLp4lahKUYRz3IR8jdWYkUVCMUIGQ?usp=drive_link"
+                            class="btn btn-primary" target="_blank">Baixar Jogo</a>
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/mllinear.png" alt="Gráfico de Regressão ML">
+                    </div>
+                    <h3>Previsão com Modelo Regressor</h3>
+                    <p>Notebook de Data Science (parte de curso) aplicando um modelo de regressão para predição, usando
+                        Scikit-learn, Pandas e Matplotlib.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python Icon"
+                            class="tech-icon" title="Python">
+                        <i class="ph-bold ph-brain tech-icon-ph" title="Machine Learning"></i>
+                        <img src="https://imgs.search.brave.com/vO4TZjWwJxv57cSZVzn1qEuJsK794vPzxqvqsNogzUQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wYW5k/YXMucHlkYXRhLm9y/Zy9zdGF0aWMvaW1n/L3BhbmRhc19zZWNv/bmRhcnkuc3Zn"
+                            alt="Pandas icon" class="tech-icon" title="Pandas">
+                        <img src="assets/logoscikit.png" alt="Scikit-learn icon" class="tech-icon" title="Scikit-learn">
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/machine-learning" class="btn btn-secondary"
+                            target="_blank">Ver no GitHub</a>
+
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/machinelearning.png" alt="Gráfico de Fundamentos de ML">
+                    </div>
+                    <h3>Fundamentos de Machine Learning</h3>
+                    <p>Notebook de estudo explorando conceitos fundamentais de ML, pré-processamento de dados e a
+                        aplicação
+                        de modelos (ex: KNN) com Scikit-learn.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python Icon"
+                            class="tech-icon" title="Python">
+                        <i class="ph-bold ph-brain tech-icon-ph" title="Machine Learning"></i>
+                        <img src="https://imgs.search.brave.com/vO4TZjWwJxv57cSZVzn1qEuJsK794vPzxqvqsNogzUQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wYW5k/YXMucHlkYXRhLm9y/Zy9zdGF0aWMvaW1n/L3BhbmRhc19zZWNv/bmRhcnkuc3Zn"
+                            alt="Pandas icon" class="tech-icon" title="Pandas">
+                        <img src="assets/logoscikit.png" alt="Scikit-learn icon" class="tech-icon" title="Scikit-learn">
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/machine-learning" class="btn btn-secondary"
+                            target="_blank">Ver no GitHub</a>
+
+                    </div>
+                </div>
+                <div class="projeto-card">
+                    <div class="projeto-imagem">
+                        <img src="assets-projetos/ograndeheroi.png"
+                            alt="Print do jogo de Batalha RPG rodando no terminal">
+                    </div>
+                    <h3>Jogo de Batalha RPG (Python)</h3>
+                    <p>Jogo de batalha em turnos, estilo RPG, feito em Python. Demonstra conceitos de Programação
+                        Orientada
+                        a Objetos (OOP) com classes e herança.</p>
+                    <div class="projeto-techs">
+                        <img src="https://img.icons8.com/color/48/000000/python--v1.png" alt="Python Icon"
+                            class="tech-icon" title="Python">
+                    </div>
+                    <div class="projeto-links">
+                        <a href="https://github.com/arthurluna05/python-rpg-batalha" class="btn btn-secondary"
+                            target="_blank">Ver no GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer id="contato">
+        <div class="container">
+            <p>Vamos conversar?</p>
+            <h3>arthurdluna@gmail.com</h3>
+            <div class="social-links">
+                <a href="https://github.com/arthurluna05" target="_blank"><i class="ph-bold ph-github-logo"></i></a>
+                <a href="https://www.linkedin.com/in/arthur-luna-809875300/" target="_blank"><i
+                        class="ph-bold ph-linkedin-logo"></i></a>
+            </div>
+            <p class="copyright">&copy; 2025 - Arthur Luna</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
