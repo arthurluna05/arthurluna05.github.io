@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const subtitle = document.getElementById('subtitle');
     const roles = [
         "Desenvolvedor Backend",
-        "Especialista em Automação",
+        "Especialista em desenvolvimento de APIs",
         "Entusiasta de IA & GenAI",
-        "Focado em Java & Python"
+        "Focado em ASP .NET e Spring Boot"
     ];
     let roleIndex = 0;
     let charIndex = 0;
